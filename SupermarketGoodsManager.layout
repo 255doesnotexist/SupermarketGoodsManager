@@ -1,0 +1,271 @@
+[
+    {
+        "caretX": 1,
+        "caretY": 201,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/goodsvisualmanager.h",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 2,
+        "topLine": 190
+    },
+    {
+        "caretX": 64,
+        "caretY": 102,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/consolebuffer.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 4,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 3,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/goodsvisualmanager.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 3,
+        "topLine": 1
+    },
+    {
+        "caretX": 37,
+        "caretY": 352,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/main.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 333
+    },
+    {
+        "caretX": 21,
+        "caretY": 21,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/dailynecessities.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 20,
+        "topLine": 13
+    },
+    {
+        "caretX": 34,
+        "caretY": 6,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/main.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 13,
+        "caretY": 19,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/goods.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 16,
+        "topLine": 1
+    },
+    {
+        "caretX": 21,
+        "caretY": 15,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/food.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 23,
+        "topLine": 1
+    },
+    {
+        "caretX": 20,
+        "caretY": 20,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/food.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 21,
+        "topLine": 7
+    },
+    {
+        "caretX": 2,
+        "caretY": 54,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/utils.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 25,
+        "topLine": 34
+    },
+    {
+        "caretX": 32,
+        "caretY": 36,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/goodslist.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 12,
+        "topLine": 14
+    },
+    {
+        "caretX": 31,
+        "caretY": 99,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/goodslist.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 13,
+        "topLine": 86
+    },
+    {
+        "caretX": 9,
+        "caretY": 14,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/cosmetics.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 17,
+        "topLine": 1
+    },
+    {
+        "caretX": 15,
+        "caretY": 12,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/utils.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 24,
+        "topLine": 1
+    },
+    {
+        "caretX": 20,
+        "caretY": 21,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/beverage.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 15,
+        "topLine": 25
+    },
+    {
+        "caretX": 1,
+        "caretY": 9,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/virtualbuffer.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 6,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 10,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/base64.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 11,
+        "topLine": 7
+    },
+    {
+        "caretX": 1,
+        "caretY": 80,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/base64.cpp",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 26,
+        "caretY": 27,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/goods.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 14,
+        "topLine": 13
+    },
+    {
+        "caretX": 1,
+        "caretY": 11,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/chartype.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 8,
+        "topLine": 1
+    },
+    {
+        "caretX": 23,
+        "caretY": 9,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/beverage.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 22,
+        "topLine": 1
+    },
+    {
+        "caretX": 69,
+        "caretY": 76,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/virtualbuffer.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 7,
+        "topLine": 1
+    },
+    {
+        "caretX": 7,
+        "caretY": 12,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/allclasses.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 10,
+        "topLine": 1
+    },
+    {
+        "caretX": 21,
+        "caretY": 21,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/cosmetics.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 18,
+        "topLine": 13
+    },
+    {
+        "caretX": 27,
+        "caretY": 15,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/consolebuffer.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 5,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/chartype.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 9,
+        "topLine": 3
+    },
+    {
+        "caretX": 18,
+        "caretY": 19,
+        "filename": "C:/Users/ezra/Documents/软工文档/第二学期/三级项目/SupermarketGoodsManager/dailynecessities.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 19,
+        "topLine": 1
+    }
+]

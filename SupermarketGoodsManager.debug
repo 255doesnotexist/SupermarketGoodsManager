@@ -1,0 +1,83 @@
+{
+    "breakpoints": [
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "main.cpp",
+            "line": 335,
+            "timestamp": "1686233737164"
+        }
+    ],
+    "timestamp": "1686287922065",
+    "watchvars": [
+        {
+            "expression": "decoded_info",
+            "timestamp": "1684399533343"
+        },
+        {
+            "expression": "last_buffer[i][j]",
+            "timestamp": "1685534766489"
+        },
+        {
+            "expression": "buffer[i][j]",
+            "timestamp": "1685534771674"
+        },
+        {
+            "expression": "str",
+            "timestamp": "1685535131238"
+        },
+        {
+            "expression": "j",
+            "timestamp": "1685535160429"
+        },
+        {
+            "expression": "i",
+            "timestamp": "1685535170015"
+        },
+        {
+            "expression": "columns",
+            "timestamp": "1685535385357"
+        },
+        {
+            "expression": "p",
+            "timestamp": "1685954127166"
+        },
+        {
+            "expression": "rec",
+            "timestamp": "1686113002996"
+        },
+        {
+            "expression": "rec_cnt",
+            "timestamp": "1686113464328"
+        },
+        {
+            "expression": "flg",
+            "timestamp": "1686114029603"
+        },
+        {
+            "expression": "rec.Event.KeyEvent.wVirtualKeyCode",
+            "timestamp": "1686145189942"
+        },
+        {
+            "expression": "mousePos",
+            "timestamp": "1686145233938"
+        },
+        {
+            "expression": "isMoved",
+            "timestamp": "1686145237087"
+        },
+        {
+            "expression": "isClicked",
+            "timestamp": "1686145240623"
+        },
+        {
+            "expression": "ch",
+            "timestamp": "1686221901847"
+        },
+        {
+            "expression": "content",
+            "timestamp": "1686221912527"
+        }
+    ]
+}

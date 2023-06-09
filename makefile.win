@@ -1,0 +1,71 @@
+# Project: SupermarketGoodsManager
+# Makefile created by Red Panda C++ 2.14
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = SupermarketGoodsManager_private.res
+OBJ      = consolebuffer.o goodsvisualmanager.o main.o dailynecessities.o goods.o food.o utils.o goodslist.o beverage.o base64.o virtualbuffer.o cosmetics.o chartype.o $(RES)
+LINKOBJ  = consolebuffer.o goodsvisualmanager.o main.o dailynecessities.o goods.o food.o utils.o goodslist.o beverage.o base64.o virtualbuffer.o cosmetics.o chartype.o SupermarketGoodsManager_private.res
+CLEANOBJ  =  consolebuffer.o goodsvisualmanager.o main.o dailynecessities.o goods.o food.o utils.o goodslist.o beverage.o base64.o virtualbuffer.o cosmetics.o chartype.o  SupermarketGoodsManager_private.res SupermarketGoodsManager.exe
+LIBS     =  -m64 -static
+INCS     =  
+CXXINCS  =  
+BIN      = SupermarketGoodsManager.exe
+CXXFLAGS = $(CXXINCS)  -g3 -pipe -Wall -Wextra -D_GLIBCXX_USE_CXX11_ABI=0 -D__DEBUG__
+CFLAGS   = $(INCS)  -g3 -pipe -Wall -Wextra -D__DEBUG__
+RM       = del /q /f
+WINDRESFLAGS  = 
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) > NUL 2>&1
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "$(BIN)" $(LIBS)
+
+consolebuffer.o: consolebuffer.cpp chartype.h consolebuffer.h
+	$(CPP) -c consolebuffer.cpp -o "consolebuffer.o" $(CXXFLAGS) 
+
+goodsvisualmanager.o: goodsvisualmanager.cpp goodsvisualmanager.h
+	$(CPP) -c goodsvisualmanager.cpp -o "goodsvisualmanager.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+main.o: main.cpp goodsvisualmanager.h main.h food.h goodslist.h cosmetics.h utils.h virtualbuffer.h base64.h goods.h chartype.h beverage.h allclasses.h consolebuffer.h dailynecessities.h
+	$(CPP) -c main.cpp -o "main.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+dailynecessities.o: dailynecessities.cpp utils.h dailynecessities.h
+	$(CPP) -c dailynecessities.cpp -o "dailynecessities.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+goods.o: goods.cpp utils.h base64.h goods.h
+	$(CPP) -c goods.cpp -o "goods.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+food.o: food.cpp food.h
+	$(CPP) -c food.cpp -o "food.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+utils.o: utils.cpp utils.h
+	$(CPP) -c utils.cpp -o "utils.o" $(CXXFLAGS) 
+
+goodslist.o: goodslist.cpp goodslist.h
+	$(CPP) -c goodslist.cpp -o "goodslist.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+beverage.o: beverage.cpp beverage.h
+	$(CPP) -c beverage.cpp -o "beverage.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+base64.o: base64.cpp base64.h
+	$(CPP) -c base64.cpp -o "base64.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+virtualbuffer.o: virtualbuffer.cpp virtualbuffer.h chartype.h consolebuffer.h
+	$(CPP) -c virtualbuffer.cpp -o "virtualbuffer.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+cosmetics.o: cosmetics.cpp cosmetics.h utils.h
+	$(CPP) -c cosmetics.cpp -o "cosmetics.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+chartype.o: chartype.cpp chartype.h
+	$(CPP) -c chartype.cpp -o "chartype.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+SupermarketGoodsManager_private.res: SupermarketGoodsManager_private.rc 
+	$(WINDRES) -i SupermarketGoodsManager_private.rc --input-format=rc -o "SupermarketGoodsManager_private.res" -O coff $(WINDRESFLAGS) 
+
