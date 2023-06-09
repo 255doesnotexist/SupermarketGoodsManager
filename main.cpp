@@ -34,7 +34,7 @@ void PrintSelectionInformation(GoodsList &gl, char highlight) {
     ConsoleBuffer.SetColor(highlight == 'a' ? 0xf0 : 0x0f);
     cout << " - [a] 添加新的商品" << endl;
     ConsoleBuffer.SetColor(highlight == 'q' ? 0xf0 : 0x0f);
-    cout << " - [q] 以品名为依据精确查询商品" << endl;
+    cout << " - [q] 精确查询商品" << endl;
     ConsoleBuffer.SetColor(highlight == 'm' ? 0xf0 : 0x0f);
     cout << " - [m] 以品名为依据修改商品信息" << endl;
     ConsoleBuffer.SetColor(highlight == 'd' ? 0xf0 : 0x0f);
