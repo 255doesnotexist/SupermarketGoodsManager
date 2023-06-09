@@ -63,6 +63,8 @@ class GoodsVisualManager {
             cur = gl -> getHead();
             index = 1;
             while (ch != 'Q' && ch != 'q') {
+                // 如有机会 此处应当重构 
+                
                 this -> Render();
                 vb -> WriteToConsole();
 

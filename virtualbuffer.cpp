@@ -27,6 +27,7 @@ void VirtualBuffer::WriteToConsole() {
         bool chain_update = false; // 链式更新是被设计用于更新需要两格宽的中文字符的 
         for (int j = 0; j < columns; ++j) {
             if (last_buffer[i][j] != buffer[i][j] || chain_update || ALWAYS_UPDATE) {
+                // 比较差异并更新
                 ConsoleBuffer.GotoXY(j, i);
                 
                 ConsoleBuffer.WriteChar(buffer[i][j]);
