@@ -8,6 +8,9 @@ using std::flush;
 using std::string;
 using std::cin;
 using std::map;
+using std::pair;
+using std::set;
+using std::greater;
 
 #include "main.h"
 
@@ -379,12 +382,17 @@ int ConsoleMain() {
                 switch (choice) {
                     case '1': {
                         map<string, int> brandMap = list.getBrandMap();
+                        set<pair<int,string>, greater<pair<int,string> > > brandSet;
 
                         double stock_sum = 0.0;
 
                         for (auto it = brandMap.begin(); it != brandMap.end(); ++it) {
-                            cout << " - 品牌：" << it -> first << "（入库商品数：" << it -> second << "）" << endl;
+                            brandSet.insert(std::make_pair(it -> second," - 品牌：" + (it -> first) + "（入库商品数：" + Utils::toString(it -> second) + "）"));
                             stock_sum += it -> second;
+                        }
+                        
+                        for (auto it = brandSet.begin(); it != brandSet.end(); ++it) {
+                            cout << it -> second << endl;
                         }
 
                         cout << " + 总商品库存量：" << stock_sum << endl;
@@ -393,12 +401,17 @@ int ConsoleMain() {
                     }
                     case '2': {
                         map<string, int> typeMap = list.getTypeMap();
+                        set<pair<int,string>, greater<pair<int,string> > > typeSet;
 
                         double stock_sum = 0.0;
-
+                        
                         for (auto it = typeMap.begin(); it != typeMap.end(); ++it) {
-                            cout << " - 类型：" << it -> first << "（入库商品数：" << it -> second << "）" << endl;
+                            typeSet.insert(std::make_pair(it -> second," - 种类：" + (it -> first) + "（入库商品数：" + Utils::toString(it -> second) + "）"));
                             stock_sum += it -> second;
+                        }
+                        
+                        for (auto it = typeSet.begin(); it != typeSet.end(); ++it) {
+                            cout << it -> second << endl;
                         }
 
                         cout << " + 总商品库存量：" << stock_sum << endl;

@@ -9,6 +9,7 @@ namespace Utils {
     double toDouble(const std::string &input);
     std::wstring toWstring(std::string input);
     std::string toString(std::wstring input);
+    std::string toString(int input);
     bool isChineseChar(wchar_t ch);
 };
 

@@ -52,3 +52,9 @@ bool Utils::isChineseChar(wchar_t ch) {
     unsigned char *pCh = (unsigned char*)&ch;
     return (((*pCh >= 0) && (*pCh <= 0xff)) && (*(pCh + 1) >= 0x4e && *(pCh + 1) <= 0x9f));
 }
+
+std::string Utils::toString(int input){
+    std::ostringstream os; 
+    os << input;
+    return os.str();
+}

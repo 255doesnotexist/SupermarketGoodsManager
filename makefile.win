@@ -36,23 +36,23 @@ chartype.o: chartype.cpp chartype.h
 goods.o: goods.cpp goods.h base64.h
 	$(CPP) -c goods.cpp -o "goods.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
 
-cosmetics.o: cosmetics.cpp cosmetics.h utils.h
+cosmetics.o: cosmetics.cpp cosmetics.h goods.h base64.h utils.h
 	$(CPP) -c cosmetics.cpp -o "cosmetics.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
 
-beverage.o: beverage.cpp beverage.h
+beverage.o: beverage.cpp goods.h beverage.h base64.h
 	$(CPP) -c beverage.cpp -o "beverage.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
 
-goodsvisualmanager.o: goodsvisualmanager.cpp goodslist.h consolebuffer.h goodsvisualmanager.h virtualbuffer.h chartype.h
+goodsvisualmanager.o: goodsvisualmanager.cpp goodslist.h consolebuffer.h cosmetics.h goods.h beverage.h food.h goodsvisualmanager.h virtualbuffer.h base64.h dailynecessities.h chartype.h
 	$(CPP) -c goodsvisualmanager.cpp -o "goodsvisualmanager.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
 
-goodslist.o: goodslist.cpp goodslist.h
+goodslist.o: goodslist.cpp goodslist.h cosmetics.h goods.h beverage.h food.h base64.h dailynecessities.h
 	$(CPP) -c goodslist.cpp -o "goodslist.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
 
-food.o: food.cpp food.h
+food.o: food.cpp goods.h food.h base64.h
 	$(CPP) -c food.cpp -o "food.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
 
 utils.o: utils.cpp utils.h
-	$(CPP) -c utils.cpp -o "utils.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+	$(CPP) -c utils.cpp -o "utils.o" $(CXXFLAGS) 
 
 main.o: main.cpp goodslist.h consolebuffer.h cosmetics.h goods.h beverage.h food.h goodsvisualmanager.h allclasses.h virtualbuffer.h base64.h dailynecessities.h chartype.h main.h
 	$(CPP) -c main.cpp -o "main.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
